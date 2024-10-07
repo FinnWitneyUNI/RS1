@@ -1,0 +1,16 @@
+/home/student/Documents/sprint2/install/scan_matching_localizer/lib/scan_matching_localizer/scan_matching_localizer
+/home/student/Documents/sprint2/install/scan_matching_localizer/share/ament_index/resource_index/package_run_dependencies/scan_matching_localizer
+/home/student/Documents/sprint2/install/scan_matching_localizer/share/ament_index/resource_index/parent_prefix_path/scan_matching_localizer
+/home/student/Documents/sprint2/install/scan_matching_localizer/share/scan_matching_localizer/environment/ament_prefix_path.sh
+/home/student/Documents/sprint2/install/scan_matching_localizer/share/scan_matching_localizer/environment/ament_prefix_path.dsv
+/home/student/Documents/sprint2/install/scan_matching_localizer/share/scan_matching_localizer/environment/path.sh
+/home/student/Documents/sprint2/install/scan_matching_localizer/share/scan_matching_localizer/environment/path.dsv
+/home/student/Documents/sprint2/install/scan_matching_localizer/share/scan_matching_localizer/local_setup.bash
+/home/student/Documents/sprint2/install/scan_matching_localizer/share/scan_matching_localizer/local_setup.sh
+/home/student/Documents/sprint2/install/scan_matching_localizer/share/scan_matching_localizer/local_setup.zsh
+/home/student/Documents/sprint2/install/scan_matching_localizer/share/scan_matching_localizer/local_setup.dsv
+/home/student/Documents/sprint2/install/scan_matching_localizer/share/scan_matching_localizer/package.dsv
+/home/student/Documents/sprint2/install/scan_matching_localizer/share/ament_index/resource_index/packages/scan_matching_localizer
+/home/student/Documents/sprint2/install/scan_matching_localizer/share/scan_matching_localizer/cmake/scan_matching_localizerConfig.cmake
+/home/student/Documents/sprint2/install/scan_matching_localizer/share/scan_matching_localizer/cmake/scan_matching_localizerConfig-version.cmake
+/home/student/Documents/sprint2/install/scan_matching_localizer/share/scan_matching_localizer/package.xml

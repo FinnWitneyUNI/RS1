@@ -1,0 +1,107 @@
+[0.167s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'scan_filter']
+[0.168s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['scan_filter'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x73be0aa33880>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x73be0aa32e60>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x73be0aa32e60>>, mixin_verb=('build',))
+[0.496s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.496s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.496s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.496s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.496s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.496s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.496s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/student/Documents/week2'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.520s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'scan_filter'
+[0.520s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.520s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.520s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.520s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.520s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.567s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.567s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.571s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 20 installed packages in /home/student/ros2_ws/install
+[0.572s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/student/ros2_ws/src/install
+[0.575s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 386 installed packages in /opt/ros/humble
+[0.577s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.665s] Level 5:colcon.colcon_core.verb:set package 'scan_filter' build argument 'cmake_args' from command line to 'None'
+[0.665s] Level 5:colcon.colcon_core.verb:set package 'scan_filter' build argument 'cmake_target' from command line to 'None'
+[0.665s] Level 5:colcon.colcon_core.verb:set package 'scan_filter' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.666s] Level 5:colcon.colcon_core.verb:set package 'scan_filter' build argument 'cmake_clean_cache' from command line to 'False'
+[0.666s] Level 5:colcon.colcon_core.verb:set package 'scan_filter' build argument 'cmake_clean_first' from command line to 'False'
+[0.666s] Level 5:colcon.colcon_core.verb:set package 'scan_filter' build argument 'cmake_force_configure' from command line to 'False'
+[0.666s] Level 5:colcon.colcon_core.verb:set package 'scan_filter' build argument 'ament_cmake_args' from command line to 'None'
+[0.666s] Level 5:colcon.colcon_core.verb:set package 'scan_filter' build argument 'catkin_cmake_args' from command line to 'None'
+[0.666s] Level 5:colcon.colcon_core.verb:set package 'scan_filter' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.666s] DEBUG:colcon.colcon_core.verb:Building package 'scan_filter' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/student/Documents/week2/build/scan_filter', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/student/Documents/week2/install/scan_filter', 'merge_install': False, 'path': '/home/student/Documents/week2', 'symlink_install': False, 'test_result_base': None}
+[0.666s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.668s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.668s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/student/Documents/week2' with build type 'ament_cmake'
+[0.668s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/student/Documents/week2'
+[0.672s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.672s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.672s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.689s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student/Documents/week2/build/scan_filter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/student/Documents/week2 -DCMAKE_INSTALL_PREFIX=/home/student/Documents/week2/install/scan_filter
+[3.696s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student/Documents/week2/build/scan_filter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/student/Documents/week2 -DCMAKE_INSTALL_PREFIX=/home/student/Documents/week2/install/scan_filter
+[3.698s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student/Documents/week2/build/scan_filter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/Documents/week2/build/scan_filter -- -j8 -l8
+[17.739s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student/Documents/week2/build/scan_filter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/Documents/week2/build/scan_filter -- -j8 -l8
+[17.823s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student/Documents/week2/build/scan_filter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/student/Documents/week2/build/scan_filter
+[17.867s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scan_filter)
+[17.868s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student/Documents/week2/build/scan_filter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/student/Documents/week2/build/scan_filter
+[17.872s] Level 1:colcon.colcon_core.environment:checking '/home/student/Documents/week2/install/scan_filter' for CMake module files
+[17.872s] Level 1:colcon.colcon_core.environment:checking '/home/student/Documents/week2/install/scan_filter' for CMake config files
+[17.873s] Level 1:colcon.colcon_core.shell:create_environment_hook('scan_filter', 'cmake_prefix_path')
+[17.873s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/Documents/week2/install/scan_filter/share/scan_filter/hook/cmake_prefix_path.ps1'
+[17.879s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/Documents/week2/install/scan_filter/share/scan_filter/hook/cmake_prefix_path.dsv'
+[17.881s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/Documents/week2/install/scan_filter/share/scan_filter/hook/cmake_prefix_path.sh'
+[17.890s] Level 1:colcon.colcon_core.environment:checking '/home/student/Documents/week2/install/scan_filter/lib'
+[17.891s] Level 1:colcon.colcon_core.environment:checking '/home/student/Documents/week2/install/scan_filter/bin'
+[17.893s] Level 1:colcon.colcon_core.environment:checking '/home/student/Documents/week2/install/scan_filter/lib/pkgconfig/scan_filter.pc'
+[17.893s] Level 1:colcon.colcon_core.environment:checking '/home/student/Documents/week2/install/scan_filter/lib/python3.10/site-packages'
+[17.894s] Level 1:colcon.colcon_core.environment:checking '/home/student/Documents/week2/install/scan_filter/bin'
+[17.894s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/Documents/week2/install/scan_filter/share/scan_filter/package.ps1'
+[17.895s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/student/Documents/week2/install/scan_filter/share/scan_filter/package.dsv'
+[17.896s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/Documents/week2/install/scan_filter/share/scan_filter/package.sh'
+[17.897s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/Documents/week2/install/scan_filter/share/scan_filter/package.bash'
+[17.898s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/Documents/week2/install/scan_filter/share/scan_filter/package.zsh'
+[17.898s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/student/Documents/week2/install/scan_filter/share/colcon-core/packages/scan_filter)
+[17.961s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scan_filter)
+[17.961s] Level 1:colcon.colcon_core.environment:checking '/home/student/Documents/week2/install/scan_filter' for CMake module files
+[17.962s] Level 1:colcon.colcon_core.environment:checking '/home/student/Documents/week2/install/scan_filter' for CMake config files
+[17.963s] Level 1:colcon.colcon_core.shell:create_environment_hook('scan_filter', 'cmake_prefix_path')
+[17.963s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/Documents/week2/install/scan_filter/share/scan_filter/hook/cmake_prefix_path.ps1'
+[17.964s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/Documents/week2/install/scan_filter/share/scan_filter/hook/cmake_prefix_path.dsv'
+[17.964s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/Documents/week2/install/scan_filter/share/scan_filter/hook/cmake_prefix_path.sh'
+[17.965s] Level 1:colcon.colcon_core.environment:checking '/home/student/Documents/week2/install/scan_filter/lib'
+[17.965s] Level 1:colcon.colcon_core.environment:checking '/home/student/Documents/week2/install/scan_filter/bin'
+[17.965s] Level 1:colcon.colcon_core.environment:checking '/home/student/Documents/week2/install/scan_filter/lib/pkgconfig/scan_filter.pc'
+[17.966s] Level 1:colcon.colcon_core.environment:checking '/home/student/Documents/week2/install/scan_filter/lib/python3.10/site-packages'
+[17.967s] Level 1:colcon.colcon_core.environment:checking '/home/student/Documents/week2/install/scan_filter/bin'
+[17.967s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/Documents/week2/install/scan_filter/share/scan_filter/package.ps1'
+[17.968s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/student/Documents/week2/install/scan_filter/share/scan_filter/package.dsv'
+[17.969s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/Documents/week2/install/scan_filter/share/scan_filter/package.sh'
+[17.969s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/Documents/week2/install/scan_filter/share/scan_filter/package.bash'
+[17.970s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/Documents/week2/install/scan_filter/share/scan_filter/package.zsh'
+[17.970s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/student/Documents/week2/install/scan_filter/share/colcon-core/packages/scan_filter)
+[17.972s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[17.972s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[17.972s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[17.973s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[17.981s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[17.981s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[17.981s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[17.997s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[17.998s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/student/Documents/week2/install/local_setup.ps1'
+[18.000s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/student/Documents/week2/install/_local_setup_util_ps1.py'
+[18.003s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/student/Documents/week2/install/setup.ps1'
+[18.006s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/student/Documents/week2/install/local_setup.sh'
+[18.007s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/student/Documents/week2/install/_local_setup_util_sh.py'
+[18.008s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/student/Documents/week2/install/setup.sh'
+[18.011s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/student/Documents/week2/install/local_setup.bash'
+[18.012s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/student/Documents/week2/install/setup.bash'
+[18.015s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/student/Documents/week2/install/local_setup.zsh'
+[18.016s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/student/Documents/week2/install/setup.zsh'
