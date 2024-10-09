@@ -1,0 +1,10 @@
+/home/student/Documents/week2/build/scan_filter/CMakeFiles/uninstall.dir
+/home/student/Documents/week2/build/scan_filter/CMakeFiles/scan_filter_uninstall.dir
+/home/student/Documents/week2/build/scan_filter/CMakeFiles/scan_filter_node.dir
+/home/student/Documents/week2/build/scan_filter/CMakeFiles/test.dir
+/home/student/Documents/week2/build/scan_filter/CMakeFiles/edit_cache.dir
+/home/student/Documents/week2/build/scan_filter/CMakeFiles/rebuild_cache.dir
+/home/student/Documents/week2/build/scan_filter/CMakeFiles/list_install_components.dir
+/home/student/Documents/week2/build/scan_filter/CMakeFiles/install.dir
+/home/student/Documents/week2/build/scan_filter/CMakeFiles/install/local.dir
+/home/student/Documents/week2/build/scan_filter/CMakeFiles/install/strip.dir
